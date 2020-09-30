@@ -24,7 +24,6 @@ public class practice9 {
 		default:
 			if (i >=10) {
 			System.out.println("default");
-			
 			}
 		}
 	}
