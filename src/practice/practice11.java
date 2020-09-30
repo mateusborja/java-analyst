@@ -3,7 +3,7 @@ package practice;
 //java break and continue
 public class practice11 {
 	public static void main(String[] args) {
-		//brake control estructural
+		//brake control structure
 		for (int i = 0; i < 10; i++) {
 			if (i == 5) {
 				break;
@@ -12,7 +12,7 @@ public class practice11 {
 			System.out.println(i);
 		}
 		
-		//continue control estructural
+		//continue control structure
 		for (int i = 0; i < 10; i++) {
 			if (i == 5) {
 				continue;
@@ -20,7 +20,6 @@ public class practice11 {
 			
 			System.out.println(i);
 		}
-		
 		
 	}
 
