@@ -22,6 +22,12 @@ public class practice3 {
 		double e = 100;
 		int f = (int) e;
 		
+		//int variable not store decimal numbers
+		int n4 = (int) 3.5;
+		
+		//maximun value in byte variable is -127 // 127
+		byte n5 = (byte) 129;
+		
 		System.out.println(n1);
 		System.out.println(n2);
 		System.out.println(n3);
@@ -29,6 +35,8 @@ public class practice3 {
 		System.out.println(i);
 		System.out.println(e);
 		System.out.println(f);
+		System.out.println(n4);
+		System.out.println(n5);
 		
 	}
 
