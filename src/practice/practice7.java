@@ -14,7 +14,6 @@ public class practice7 {
 
 		}
 		
-		
 		int x = 50;
 		
 		if (x > 30) {
@@ -34,6 +33,8 @@ public class practice7 {
 		 * executable code false
 		 * }
 		 */
+	
+		
 	}
 
 }
