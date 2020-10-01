@@ -14,6 +14,9 @@ public class lesson_3_4 {
 		float w = 10;
 		System.out.println(x +"\n\n" + y + "\n\n" + z + "\n\n" + w);
 		
+		byte o = (byte) 130; // casting 
+		System.out.println("\n" + o);
+		
 	
 	}
 }
