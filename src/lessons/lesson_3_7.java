@@ -6,24 +6,18 @@ public class lesson_3_7 {
 		int x = 0;
 		
 		while (x <= 10) {
-			System.out.println(x);
+			System.out.println(x + "\n");
 			x++;
 		}
 		
-		System.out.println("\n" + x);
+		int y = 0;
 		
-		//break
-		while (true) {
-			System.out.println(x);
+		do {
+			y++;
+			System.out.println(y);
 			
-			if (x == 10) {
-				break;
-			}
-			
-			x++;
-		}
-		
-		
+		} while (y < 10);
+		System.out.println(x);
 	}
 
 }
