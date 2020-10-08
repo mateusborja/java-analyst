@@ -1,7 +1,7 @@
 package practice;
 
 //java switch
-public class practice9 {
+public class Practice9 {
 	public static void main(String[] args) {
 		int i = 10;
 		

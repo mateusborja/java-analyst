@@ -2,7 +2,7 @@ package practice;
 
 //increment operators
 
-public class practice2 {
+public class Practice2 {
 
 	public static void main(String[] args) {
 		int x = 10;
@@ -14,7 +14,7 @@ public class practice2 {
 		++y;
 		System.out.println(y);
 		
-		// ++x and x++ the ordem increment (incremento e atribuição)
+		// ++x and x++ the ordem increment (incremento e atribuiï¿½ï¿½o)
 		int z = 10;
 		int w = ++z; // z = 11, w = 11;
 		System.out.println(w);

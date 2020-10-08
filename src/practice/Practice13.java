@@ -1,6 +1,6 @@
 package practice;
 
-public class practice13 {
+public class Practice13 {
 	public static void main(String[] args) {
 		int i = 0;
 		

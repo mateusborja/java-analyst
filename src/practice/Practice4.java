@@ -1,6 +1,6 @@
 package practice;
 
-public class practice4 {
+public class Practice4 {
 	public static void main(String[] args) {
 		//explicit casting
 		/* 00000000 00000000 00000000 01100100 / binary int representation int value 100

@@ -1,7 +1,7 @@
 package lessons;
 
 //java loop while, do while and for 
-public class lesson_3_7 {
+public class Lesson_3_7 {
 	public static void main(String[] args) {
 		int x = 0;
 		

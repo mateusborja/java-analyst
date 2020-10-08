@@ -1,6 +1,6 @@
 package lessons;
 //type casting
-public class lesson_3_4 {
+public class Lesson_3_4 {
 	public static void main(String[] args) {
 		
 		int x = 10; // not casting

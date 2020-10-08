@@ -1,6 +1,6 @@
 package practice;
 
-public class practice5 {
+public class Practice5 {
 	public static void main(String[] args) {
 		int i = 129;
 		byte b = (byte)i;

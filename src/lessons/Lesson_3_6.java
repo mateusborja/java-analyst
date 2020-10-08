@@ -1,6 +1,6 @@
 package lessons;
 //switch expressions
-public class lessons_3_6 {
+public class Lesson_3_6 {
 	
 	public enum DiasdaSemana {
 		SEGUNDA, TERCA, QUARTA, QUINTA, SEXTA

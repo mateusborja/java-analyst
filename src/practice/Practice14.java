@@ -1,6 +1,6 @@
 package practice;
 //switch expressions
-public class practice14 {
+public class Practice14 {
 	public enum DiasdaSemana {
 		SEGUNDA, TERCA, QUARTA, QUINTA, SEXTA
 	}

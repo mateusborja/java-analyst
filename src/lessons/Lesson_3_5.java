@@ -2,7 +2,7 @@ package lessons;
 
 //java if else and else if
 
-public class lesson_3_5 {
+public class Lesson_3_5 {
 	public static void main(String[] args) {
 		
 		int num = 10;

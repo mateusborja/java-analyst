@@ -1,6 +1,6 @@
 package practice;
 //while do while and for
-public class practice15 {
+public class Practice15 {
 
 	public static void main(String[] args) {
 		//while with continue

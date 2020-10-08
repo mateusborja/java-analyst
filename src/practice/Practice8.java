@@ -1,7 +1,7 @@
 package practice;
 
 //java if else
-public class practice8 {
+public class Practice8 {
 	public static void main(String[] args) {
 		int x = 50;
 		boolean r;

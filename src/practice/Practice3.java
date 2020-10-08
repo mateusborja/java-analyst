@@ -1,7 +1,7 @@
 package practice;
 
 //implicit casting
-public class practice3 {
+public class Practice3 {
 	public static void main(String[] args) {
 		long n1 = 10; // int for long variable type
 		

@@ -1,7 +1,7 @@
 package lessons;
 
 //variables
-public class lesson_3_2 {
+public class Lesson_3_2 {
 	public static void main(String[] args) {
 		//int number;
 		//number = 50;
