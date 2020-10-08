@@ -5,13 +5,13 @@ public class Bicicleta {
 	String nome;
 	int bikes;
 
-	void tem(int bikes) {
+	void recebeu(int bikes) {
 		this.bikes += bikes;
 	}
 
 	void deu(int bikes, Bicicleta b) {
 		this.bikes -= bikes;
-		b.tem(bikes);
+		b.recebeu(bikes);
 
 	}
 

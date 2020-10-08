@@ -14,8 +14,8 @@ public class AplicacaoBicicleta {
 		p1.nome = "Henrique";
 		p2.nome = "Pedro";
 		
-		b1.tem(100);
-		b1.tem(50);
+		b1.recebeu(100);
+		b1.recebeu(20);
 		
 		
 		b1.deu(70, b2);
