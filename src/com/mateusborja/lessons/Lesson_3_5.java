@@ -1,4 +1,4 @@
-package lessons;
+package com.mateusborja.lessons;
 
 //java if else and else if
 

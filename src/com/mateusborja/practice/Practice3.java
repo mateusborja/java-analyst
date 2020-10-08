@@ -1,4 +1,4 @@
-package practice;
+package com.mateusborja.practice;
 
 //implicit casting
 public class Practice3 {

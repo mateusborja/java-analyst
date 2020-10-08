@@ -1,26 +1,28 @@
-package practice;
+package com.mateusborja.practice;
 
-//java break and continue
-public class Practice11 {
+public class Practice12 {
 	public static void main(String[] args) {
-		//brake control structure
-		for (int i = 0; i < 10; i++) {
+		//break
+		for (int i = 0; i < 10; i++ ) {
 			if (i == 5) {
 				break;
-			} 
+			}
 			
 			System.out.println(i);
+			
 		}
 		
-		//continue control structure
+		//continue
 		for (int i = 0; i < 10; i++) {
 			if (i == 5) {
 				continue;
+				
 			}
 			
 			System.out.println(i);
 		}
-		
+			
 	}
+	
 
 }

@@ -1,4 +1,4 @@
-package lessons;
+package com.mateusborja.lessons;
 //switch expressions
 public class Lesson_3_6 {
 	

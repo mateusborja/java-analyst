@@ -1,4 +1,4 @@
-package practice;
+package com.mateusborja.practice;
 
 //change variables values
 public class Practice1 {

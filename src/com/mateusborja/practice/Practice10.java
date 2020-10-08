@@ -1,4 +1,4 @@
-package practice;
+package com.mateusborja.practice;
 //java while, do-while, for
 
 public class Practice10 {

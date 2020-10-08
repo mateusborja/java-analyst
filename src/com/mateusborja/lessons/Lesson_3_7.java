@@ -1,4 +1,4 @@
-package lessons;
+package com.mateusborja.lessons;
 
 //java loop while, do while and for 
 public class Lesson_3_7 {

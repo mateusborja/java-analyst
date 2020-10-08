@@ -1,4 +1,4 @@
-package practice;
+package com.mateusborja.practice;
 //char type
 public class Practice6 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package practice;
+package com.mateusborja.practice;
 //switch expressions
 public class Practice14 {
 	public enum DiasdaSemana {

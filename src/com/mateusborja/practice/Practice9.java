@@ -1,4 +1,4 @@
-package practice;
+package com.mateusborja.practice;
 
 //java switch
 public class Practice9 {

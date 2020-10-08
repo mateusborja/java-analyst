@@ -1,4 +1,4 @@
-package practice;
+package com.mateusborja.practice;
 
 //java if else
 public class Practice8 {

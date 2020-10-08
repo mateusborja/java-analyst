@@ -1,4 +1,4 @@
-package lessons;
+package com.mateusborja.lessons;
 
 public class Lesson_3_3 {
 	public static void main(String[] args) {
