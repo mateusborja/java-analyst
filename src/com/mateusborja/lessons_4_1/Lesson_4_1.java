@@ -3,7 +3,7 @@
  * 
  * 
  */
-package com.mateusborja.lessons;
+package com.mateusborja.lessons_4_1;
 
 public class Lesson_4_1 {
 

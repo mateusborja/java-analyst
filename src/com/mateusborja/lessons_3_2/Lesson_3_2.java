@@ -1,4 +1,4 @@
-package com.mateusborja.lessons;
+package com.mateusborja.lessons_3_2;
 
 //variables
 public class Lesson_3_2 {

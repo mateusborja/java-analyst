@@ -1,5 +1,8 @@
 //declarate class, methods objects instance
-package com.mateusborja.lessons;
+package com.mateusborja.lessons_4_0;
+
+import com.mateusborja.lessons_3_2.Lesson_3_2;
+import com.mateusborja.lessons_4_1.Lesson_4_1;
 
 public class Lesson_4_0 {
 	

@@ -1,4 +1,4 @@
-package com.mateusborja.lessons;
+package com.mateusborja.lessons_3_4;
 //type casting
 public class Lesson_3_4 {
 	public static void main(String[] args) {
