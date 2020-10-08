@@ -1,5 +1,7 @@
 package com.mateusborja.practice;
 
+import javax.swing.JOptionPane;
+
 //java switch
 public class Practice9 {
 	public static void main(String[] args) {
@@ -26,6 +28,9 @@ public class Practice9 {
 			System.out.println("default");
 			}
 		}
+		
+	
 	}
+	
 
 }
