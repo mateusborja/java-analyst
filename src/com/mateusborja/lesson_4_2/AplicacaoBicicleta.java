@@ -2,6 +2,8 @@
 
 package com.mateusborja.lesson_4_2;
 
+import javax.swing.JOptionPane;
+
 public class AplicacaoBicicleta {
 	public static void main(String[] args) {
 		
@@ -11,7 +13,7 @@ public class AplicacaoBicicleta {
 		Bicicleta b1 = new Bicicleta();
 		Bicicleta b2 = new Bicicleta();
 
-		p1.nome = "Henrique";
+		p1.nome = JOptionPane.showInputDialog("Qual seu nome?");
 		p2.nome = "Pedro";
 		
 		b1.recebeu(100);
@@ -21,7 +23,7 @@ public class AplicacaoBicicleta {
 		b1.deu(70, b2);
 		
 		
-		System.out.println(" O " + p1.nome + " tem " + b1.bikes);
+		System.out.println(p1.nome + " você tem = " + b1.bikes + " bicicletas. ");
 		
 	}
 
