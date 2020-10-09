@@ -5,11 +5,20 @@ public class Pessoa {
 
 	//
 	String nome;
+	String name;
 	int numFigurinhas;
 
 	/*
 	 *  method receber 
 	 */
+	
+
+
+	public String returnName(String name) {
+		return this.name;
+				
+	}
+	
 	
 	void receber(int numFigurinhas) {
 		this.numFigurinhas += numFigurinhas;

@@ -12,6 +12,19 @@ public class AplicacaoPessoa {
 		Pessoa p2 = new Pessoa();	
 		//p1 = new Pessoa();
 		
+		Pessoa m1 = new Pessoa();
+		Pessoa m2 = new Pessoa();
+		
+		
+		m1.name = "Felipe Saldanha";
+		m1.receber(25);
+		m1.dar(15, p2);
+		
+		m2.name = "Fredson";
+		m2.receber(10);
+		m2.dar(3, m1);
+		
+		
 		p1.nome = "José";
 		p2.nome = "Maria";
 		
@@ -25,6 +38,11 @@ public class AplicacaoPessoa {
 		
 		System.out.println(p1.nome + " => " + p1.numFigurinhas + " figurinhas ");
 		System.out.println(p2.nome + " => " + p2.numFigurinhas + " figurinhas ");
+		
+		System.out.println(m1.name + " => " + m1.numFigurinhas + " figurinhas ");
+		
+		System.out.println(m2.name + " => " + m2.numFigurinhas + " figurinhas ");
+		
 		
 	}
 
