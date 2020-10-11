@@ -1,4 +1,4 @@
-package com.mateusborja.lesson_3_3;
+package com.mateusborja.javadevanalyst.lesson_3_3;
 
 public class Lesson_3_3 {
 	public static void main(String[] args) {

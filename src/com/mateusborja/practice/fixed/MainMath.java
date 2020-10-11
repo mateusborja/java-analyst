@@ -1,5 +1,5 @@
 //Main Math
-package com.mateusborja.fixed;
+package com.mateusborja.practice.fixed;
 
 
 public class MainMath {

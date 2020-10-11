@@ -1,4 +1,4 @@
-package com.mateusborja.lesson_3_5;
+package com.mateusborja.javadevanalyst.lesson_3_5;
 
 //java if else and else if
 

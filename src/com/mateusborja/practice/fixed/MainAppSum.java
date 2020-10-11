@@ -1,5 +1,5 @@
 //main class
-package com.mateusborja.fixed;
+package com.mateusborja.practice.fixed;
 
 public class MainAppSum {
 	public static void main(String[] args) {

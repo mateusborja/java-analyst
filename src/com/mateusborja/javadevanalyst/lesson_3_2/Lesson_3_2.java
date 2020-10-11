@@ -1,4 +1,4 @@
-package com.mateusborja.lesson_3_2;
+package com.mateusborja.javadevanalyst.lesson_3_2;
 
 //variables
 public class Lesson_3_2 {

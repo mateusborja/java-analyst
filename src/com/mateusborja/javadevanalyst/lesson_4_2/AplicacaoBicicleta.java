@@ -1,6 +1,6 @@
 //main method
 
-package com.mateusborja.lesson_4_2;
+package com.mateusborja.javadevanalyst.lesson_4_2;
 
 import javax.swing.JOptionPane;
 

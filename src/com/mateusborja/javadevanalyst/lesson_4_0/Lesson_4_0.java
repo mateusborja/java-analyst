@@ -1,8 +1,8 @@
 //declarate class, methods objects instance
-package com.mateusborja.lesson_4_0;
+package com.mateusborja.javadevanalyst.lesson_4_0;
 
-import com.mateusborja.lesson_3_2.Lesson_3_2;
-import com.mateusborja.lesson_4_1.Lesson_4_1;
+import com.mateusborja.javadevanalyst.lesson_3_2.Lesson_3_2;
+import com.mateusborja.javadevanalyst.lesson_4_1.Lesson_4_1;
 
 public class Lesson_4_0 {
 	

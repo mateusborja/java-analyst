@@ -1,5 +1,5 @@
 // lesson 4.2
-package com.mateusborja.lesson_4_2;
+package com.mateusborja.javadevanalyst.lesson_4_2;
 
 public class Pessoa {
 

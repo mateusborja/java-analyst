@@ -3,7 +3,7 @@
  * 
  * 
  */
-package com.mateusborja.lesson_4_1;
+package com.mateusborja.javadevanalyst.lesson_4_1;
 
 public class Lesson_4_1 {
 
