@@ -9,9 +9,9 @@ public class Operacao {
 		n = 20;
 	}
 
-	void alterarValor(Valor valor) {
-		valor = new Valor();
-		valor.v = 20;
+	void alterarValor(Valor numero) {
+		numero = new Valor();
+		numero.v = 20;
 
 	}
 
