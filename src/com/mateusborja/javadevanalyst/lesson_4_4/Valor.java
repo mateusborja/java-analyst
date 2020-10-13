@@ -4,5 +4,7 @@ public class Valor {
 	
 	int v;
 	
+	int z;
+	
 	
 }

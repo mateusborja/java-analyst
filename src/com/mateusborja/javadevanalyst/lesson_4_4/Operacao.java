@@ -10,7 +10,7 @@ public class Operacao {
 	}
 
 	void alterarValor(Valor valor) {
-		// valor = new Valor();
+		valor = new Valor();
 		valor.v = 20;
 
 	}
@@ -22,9 +22,14 @@ public class Operacao {
 	void somar(int x, int z) {
 		soma = x + z;
 	}
-	
+
 	void subtrair(int x, int z) {
 		subtrai = x - z;
+	}
+
+	void mudarValor(Valor valor) {
+		valor = new Valor();
+		valor.z = 150;
 	}
 
 }
