@@ -16,7 +16,7 @@ public class ContaBancaria {
 	
 	//add rules
 	public void sacar(double valor) {
-		if(valor < 0) {
+		if(valor < 0 && valor >= saldo) {
 			return;
 		}
 		saldo-= valor;
@@ -24,7 +24,7 @@ public class ContaBancaria {
 	
 	//add rules
 	public void depositar(double valor) {
-		if (valor < 0) {
+		if (valor < 0 && valor >=saldo ) {
 			return;
 		}
 		saldo+= valor;
