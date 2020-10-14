@@ -3,11 +3,11 @@ package com.mateusborja.javadevanalyst.lesson_5_1;
 
 public class Livro {
 
+	// attributes static
+	private static String livro1 = "Romeu e Julieta";
+
 	private String isbn;
 	private int numPaginas;
-	
-	//attributes static
-	private static String livro1 = "Romeu e Julieta";
 
 	public Livro() {
 
@@ -28,7 +28,7 @@ public class Livro {
 	public void devolver() {
 
 	}
-	
+
 	private static String getLivro() {
 		return Livro.livro1;
 	}
