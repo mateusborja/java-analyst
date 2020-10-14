@@ -7,6 +7,11 @@ public class Aplicacao {
 		
 		ContaBancaria c1 = new ContaBancaria();
 		
+		c1.setNumConta(54023);
+		c1.setAtiva(true);
+		
+		
+		
 		
 	}
 

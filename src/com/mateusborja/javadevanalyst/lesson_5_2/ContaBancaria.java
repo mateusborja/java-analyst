@@ -13,6 +13,17 @@ public class ContaBancaria {
 	private int numConta;
 	private boolean ativa;
 	private double saldo;
+	
+	//rules
+	public void sacar(double saque) {
+		saldo-= saque;
+	}
+	
+	//rules
+	public void depositar(double deposito) {
+		saldo+= deposito;
+	}
+	
 
 	public int getNumConta() {
 		return numConta;
@@ -37,8 +48,9 @@ public class ContaBancaria {
 		return saldo;
 	}
 
-	public void setSaldo(double saldo) {
-		this.saldo = saldo;
-	}
+	//rulle not visible in this case
+	//public void setSaldo(double saldo) {
+		//this.saldo = saldo;
+	//}
 
 }
