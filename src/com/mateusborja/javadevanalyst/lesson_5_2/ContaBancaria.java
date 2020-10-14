@@ -13,30 +13,29 @@ public class ContaBancaria {
 	private int numConta;
 	private boolean ativa;
 	private double saldo;
-	
-	//add rules
+
+	// add rules
 	public void sacar(double valor) {
-		if(valor < 0 && valor >= saldo) {
+		if (valor < 0 && valor >= saldo) {
 			return;
 		}
-		saldo-= valor;
+		saldo -= valor;
 	}
-	
-	//add rules
+
+	// add rules
 	public void depositar(double valor) {
-		if (valor < 0 && valor >=saldo ) {
+		if (valor < 0) {
 			return;
 		}
-		saldo+= valor;
+		saldo += valor;
 	}
-	
 
 	public int getNumConta() {
 		return numConta;
 	}
 
 	public void setNumConta(int numConta) {
-		//rules
+		// rules
 		if (numConta > 0) {
 			this.numConta = numConta;
 		}
@@ -54,9 +53,9 @@ public class ContaBancaria {
 		return saldo;
 	}
 
-	//rulle not visible in this case
-	//public void setSaldo(double saldo) {
-		//this.saldo = saldo;
-	//}
+	// rulle not visible in this case
+	// public void setSaldo(double saldo) {
+	// this.saldo = saldo;
+	// }
 
 }

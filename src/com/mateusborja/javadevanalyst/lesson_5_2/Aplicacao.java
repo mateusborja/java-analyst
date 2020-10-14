@@ -10,6 +10,13 @@ public class Aplicacao {
 		c1.setNumConta(54023);
 		c1.setAtiva(true);
 		
+		c1.depositar(15);
+		c1.sacar(500);
+		
+		double saldo = c1.getSaldo();
+		
+		System.out.println(saldo);
+		
 		
 		
 		
