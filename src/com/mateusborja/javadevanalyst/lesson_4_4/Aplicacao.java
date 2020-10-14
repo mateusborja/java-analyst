@@ -10,9 +10,11 @@ public class Aplicacao {
 
 		int x = 10;
 		o.trocar(x);
-		System.out.println(x);
+		//System.out.println(x);
 
 		valor.v = 1120;
+		
+		valor.v = 10.000000;
 
 		//o.alterarValor(valor);
 		System.out.println(valor.v);
