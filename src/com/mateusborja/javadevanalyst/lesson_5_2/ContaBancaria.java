@@ -14,14 +14,20 @@ public class ContaBancaria {
 	private boolean ativa;
 	private double saldo;
 	
-	//rules
-	public void sacar(double saque) {
-		saldo-= saque;
+	//add rules
+	public void sacar(double valor) {
+		if(valor < 0) {
+			return;
+		}
+		saldo-= valor;
 	}
 	
-	//rules
-	public void depositar(double deposito) {
-		saldo+= deposito;
+	//add rules
+	public void depositar(double valor) {
+		if (valor < 0) {
+			return;
+		}
+		saldo+= valor;
 	}
 	
 
