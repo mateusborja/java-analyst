@@ -21,15 +21,15 @@ public class Aplicacao {
 		System.out.println(arear3 + " square meters" +"\n");
 
 		// instance Quadrado class with objects
-		Quadrado q1 = new Quadrado();
-		Quadrado q2 = new Quadrado();
+		//Quadrado q1 = new Quadrado();
+		//Quadrado q2 = new Quadrado();
 
 		//double areaq1 = q1.calculcarArea();
 		
 		double areaq1 = Quadrado.calcularArea(5);
 		
 
-		q2.setLado(25);
+		//q2.setLado(25);
 
 		//double areaq2 = q2.calcularArea();
 		

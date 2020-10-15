@@ -6,7 +6,11 @@ public class Quadrado {
 	//private double lado;
 	
 	//static attribute
-	private static double lado;
+	public static double lado;
+	
+	static {
+		lado = 5;
+	}
 	
 	
 	public Quadrado () {
