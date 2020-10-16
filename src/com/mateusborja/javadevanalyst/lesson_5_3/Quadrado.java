@@ -6,7 +6,7 @@ public class Quadrado {
 	//private double lado;
 	
 	//static attribute
-	public static double lado;
+	static double lado;
 	
 	static {
 		lado = 5;
@@ -24,7 +24,7 @@ public class Quadrado {
 		//this.lado = lado;
 	}
 	
-	public static double calcularArea(int lado) {
+	public static double calcularArea(double lado) {
 		return lado * lado;
 	}
 
