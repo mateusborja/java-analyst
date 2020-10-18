@@ -18,6 +18,21 @@ public class Aplicacao {
 
 		System.out.println(soma1);
 		System.out.println(subtracao1);
+		
+		
+		Contador c1 = new Contador();
+		Contador c2 = new Contador();
+		Contador c3 = new Contador();
+		
+		///c1.incrementar();
+		///c2.incrementar();
+		///c3.incrementar();
+		
+		Contador.incrementar(); // increment one time
+		Contador.incrementar();
+		
+		
+		System.out.println(Contador.getValor());
 
 	}
 
