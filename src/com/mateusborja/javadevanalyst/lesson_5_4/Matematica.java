@@ -8,7 +8,7 @@ public class Matematica {
 	}
 	
 	public static int subtratir (int a, int b) {
-		return a- b;
+		return a - b;
 	}
 	
 	
