@@ -20,9 +20,9 @@ public class Aplicacao {
 		System.out.println(subtracao1);
 		
 		
-		Contador c1 = new Contador();
-		Contador c2 = new Contador();
-		Contador c3 = new Contador();
+		Contador c1 = new Contador(); // Contador nessa classe o atributo esta do tipo static
+		Contador c2 = new Contador(); // o atributo esta do tipo static
+		Contador c3 = new Contador(); // o atributo esta do tipo static
 		
 		///c1.incrementar();
 		///c2.incrementar();
@@ -31,8 +31,14 @@ public class Aplicacao {
 		Contador.incrementar(); // increment one time
 		Contador.incrementar();
 		
-		
 		System.out.println(Contador.getValor());
+		
+		double media = Constantes.MEDIA_DA_PROVA;
+		
+		System.out.println(media);
+		
+		
+		
 
 	}
 
