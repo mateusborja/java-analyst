@@ -14,7 +14,6 @@ public record Retangulo(double largura, double altura) {
 	}
 
 	public static Retangulo create(double lado) {
-
 		return new Retangulo(lado, lado);
 	}
 
