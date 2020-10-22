@@ -7,6 +7,7 @@ public class Preparador {
 		System.out.println("Preparando a bebida " + bebida.getNome());
 		bebida.preparar();
 
+		//specify for class LeiteQuente
 		if (bebida.isAquecer()) {
 			System.out.println("Aquecendo a bebida " + bebida.getNome());
 		}
