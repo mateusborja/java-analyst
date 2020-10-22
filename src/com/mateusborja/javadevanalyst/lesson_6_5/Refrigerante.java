@@ -8,7 +8,7 @@ public class Refrigerante extends Bebida {
 	
 	@Override
 	public void preparar() {
-		System.out.println("\nPegando o copo");
+		System.out.println("Pegando o copo");
 		System.out.println("Colocando gelo no copo");
 		System.out.println("Colocando o refrigerante");
 	}
