@@ -1,9 +1,9 @@
 //java record
 package com.mateusborja.javadevanalyst.lesson_5_5;
 
-public record Retangulo(double largura, double altura) {
+public record Ret(double largura, double altura) {
 
-	public Retangulo() {
+	public Ret() {
 		this(4, 3);
 		// this.largura = 4;
 		// this.altura = 3;
@@ -13,8 +13,8 @@ public record Retangulo(double largura, double altura) {
 		return largura * altura;
 	}
 
-	public static Retangulo create(double lado) {
-		return new Retangulo(lado, lado);
+	public static Ret create(double lado) {
+		return new Ret(lado, lado);
 	}
 
 }

@@ -1,7 +1,7 @@
 //change parameters
 package com.mateusborja.javadevanalyst.lesson_4_4;
 
-public class Aplicacao {
+public class AplicacaoOperacao {
 
 	public static void main(String[] args) {
 

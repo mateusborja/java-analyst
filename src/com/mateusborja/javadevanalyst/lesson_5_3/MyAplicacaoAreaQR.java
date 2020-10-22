@@ -4,7 +4,7 @@ package com.mateusborja.javadevanalyst.lesson_5_3;
 import java.text.DecimalFormat;
 import java.util.*;
 
-public class AppAreaSquare {
+public class MyAplicacaoAreaQR {
 
 	public static void main(String[] args) {
 
@@ -17,7 +17,7 @@ public class AppAreaSquare {
 		System.out.println("tell me side your square in meters: \n");
 		side = scn.nextDouble();
 
-		area = Quadrado.calcularArea(side);
+		area = QR.calcularArea(side);
 		System.out.println("your area is: " + dc.format(area) + " in sqm");
 
 

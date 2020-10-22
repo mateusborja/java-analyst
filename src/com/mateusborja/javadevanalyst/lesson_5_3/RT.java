@@ -1,6 +1,6 @@
 package com.mateusborja.javadevanalyst.lesson_5_3;
 
-public class Retangulo {
+public class RT {
 
 	private double altura;
 	private double largura;
@@ -10,14 +10,14 @@ public class Retangulo {
 	 */
 
 	// java constructor
-	public Retangulo() {
+	public RT() {
 		this(4, 3);
 		// largura = 4;
 		// altura = 3;
 	}
 
 	// java constructor
-	public Retangulo(double altura, double largura) {
+	public RT(double altura, double largura) {
 		this.altura = altura;
 		this.largura = largura;
 	}

@@ -1,14 +1,14 @@
 //java constructor
 package com.mateusborja.javadevanalyst.lesson_5_3;
 
-public class Aplicacao {
+public class AplicacaoAreaQR {
 
 	public static void main(String[] args) {
 
 		// instance Retangulo Class with objects
-		Retangulo r1 = new Retangulo();
-		Retangulo r2 = new Retangulo(15, 135);
-		Retangulo r3 = new Retangulo();
+		RT r1 = new RT();
+		RT r2 = new RT(15, 135);
+		RT r3 = new RT();
 
 		double arear1 = r1.calcularArea();
 		double arear2 = r2.calcularArea();
@@ -26,7 +26,7 @@ public class Aplicacao {
 
 		//double areaq1 = q1.calculcarArea();
 		
-		double areaq1 = Quadrado.calcularArea(5);
+		double areaq1 = QR.calcularArea(5);
 		
 
 		//q2.setLado(25);
@@ -34,7 +34,7 @@ public class Aplicacao {
 		//double areaq2 = q2.calcularArea();
 		
 		//call attributes static
-		double areaq2 = Quadrado.calcularArea(2);
+		double areaq2 = QR.calcularArea(2);
 
 		System.out.println(areaq1 + " meters");
 		System.out.println(areaq2 + " meters");

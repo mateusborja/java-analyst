@@ -1,7 +1,7 @@
 //my examples change parameters for methods
 package com.mateusborja.javadevanalyst.lesson_4_4;
 
-public class MyAplicacao {
+public class MyAplicacaoOperacao {
 
 	public static void main(String[] args) {
 

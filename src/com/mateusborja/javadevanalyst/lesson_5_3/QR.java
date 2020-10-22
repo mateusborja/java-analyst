@@ -1,7 +1,7 @@
 //java constructor and methods
 package com.mateusborja.javadevanalyst.lesson_5_3;
 
-public class Quadrado {
+public class QR {
 	
 	//private double lado;
 	
@@ -13,13 +13,13 @@ public class Quadrado {
 	}
 	
 	
-	public Quadrado () {
+	public QR () {
 		this(5);
 	}
 	
 	
-	public Quadrado(double lado) {
-		Quadrado.lado = lado;
+	public QR(double lado) {
+		QR.lado = lado;
 		//non static attribute
 		//this.lado = lado;
 	}
@@ -30,7 +30,7 @@ public class Quadrado {
 
 
 	public void setLado(double lado) {
-		Quadrado.lado = lado;
+		QR.lado = lado;
 		//non static attribute
 		//this.lado = lado;
 	}

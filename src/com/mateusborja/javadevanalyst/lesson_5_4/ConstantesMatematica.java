@@ -1,7 +1,7 @@
 //java constantes
 package com.mateusborja.javadevanalyst.lesson_5_4;
 
-public class Constantes {
+public class ConstantesMatematica {
 	
 	/*
 	 * public = pode ser acessado fora da clase

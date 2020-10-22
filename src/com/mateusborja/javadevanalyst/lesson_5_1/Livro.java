@@ -19,7 +19,7 @@ public class Livro {
 		this.numPaginas = numPaginas;
 	}
 
-	public void emprestar(Cliente cliente) {
+	public void emprestar(ClienteLivro cliente) {
 		// cliente = new Cliente();
 		cliente.homem = 100;
 

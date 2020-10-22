@@ -1,10 +1,10 @@
 package com.mateusborja.javadevanalyst.lesson_5_4;
 
-public class Contador {
+public class ContadorMatematica {
 
 	private static int valor; // attribute static
 
-	Contador() {
+	ContadorMatematica() {
 		valor = 1;
 	}
 

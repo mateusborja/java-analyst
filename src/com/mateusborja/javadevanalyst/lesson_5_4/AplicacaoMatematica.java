@@ -1,7 +1,7 @@
 //java modifiers static
 package com.mateusborja.javadevanalyst.lesson_5_4;
 
-public class Aplicacao {
+public class AplicacaoMatematica {
 
 	public static void main(String[] args) {
 
@@ -20,20 +20,20 @@ public class Aplicacao {
 		System.out.println(subtracao1);
 		
 		
-		Contador c1 = new Contador(); // Contador nessa classe o atributo esta do tipo static
-		Contador c2 = new Contador(); // o atributo esta do tipo static
-		Contador c3 = new Contador(); // o atributo esta do tipo static
+		ContadorMatematica c1 = new ContadorMatematica(); // Contador nessa classe o atributo esta do tipo static
+		ContadorMatematica c2 = new ContadorMatematica(); // o atributo esta do tipo static
+		ContadorMatematica c3 = new ContadorMatematica(); // o atributo esta do tipo static
 		
 		///c1.incrementar();
 		///c2.incrementar();
 		///c3.incrementar();
 		
-		Contador.incrementar(); // increment one time
-		Contador.incrementar();
+		ContadorMatematica.incrementar(); // increment one time
+		ContadorMatematica.incrementar();
 		
-		System.out.println(Contador.getValor());
+		System.out.println(ContadorMatematica.getValor());
 		
-		double media = Constantes.MEDIA_DA_PROVA;
+		double media = ConstantesMatematica.MEDIA_DA_PROVA;
 		
 		System.out.println(media);
 		
