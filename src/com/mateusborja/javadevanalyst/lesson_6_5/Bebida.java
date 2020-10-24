@@ -2,8 +2,8 @@ package com.mateusborja.javadevanalyst.lesson_6_5;
 
 public class Bebida {
 
-	private String nome;
-	private boolean aquecer;
+	String nome;
+	boolean aquecer;
 
 	public Bebida(String nome, boolean aquecer) {
 		this.nome = nome;

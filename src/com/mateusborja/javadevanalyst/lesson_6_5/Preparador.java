@@ -12,7 +12,8 @@ public class Preparador {
 			System.out.println("Aquecendo a bebida " + bebida.getNome());
 		}
 
-		System.out.println("A bebida " + bebida.getNome() + " foi preparada com sucesso. \n");
+		System.out.println("A bebida " + bebida.getNome() + " foi preparada com sucesso. ");
+		System.out.println("Agora você pode beber seu " + bebida.getNome() + " a vontade...\n");
 
 	}
 
