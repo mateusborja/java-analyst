@@ -20,6 +20,9 @@ public class Aplicacao {
 		SucoNatural suconatural = new SucoNatural();
 		preparador.prepararBebida(suconatural);
 		
+		Agua agua = new Agua();
+		preparador.prepararBebida(agua);
+		
 	}
 
 }
