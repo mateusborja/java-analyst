@@ -7,7 +7,7 @@ public class AplicacaoOperacao {
 
 		Operacao o = new Operacao();
 		Valor valor = new Valor();
-
+		
 		int x = 10;
 		o.trocar(x);
 		//System.out.println(x);
