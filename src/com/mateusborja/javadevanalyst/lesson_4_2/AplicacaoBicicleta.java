@@ -15,6 +15,7 @@ public class AplicacaoBicicleta {
 		Bicicleta b2 = new Bicicleta();
 
 		p1.nome = JOptionPane.showInputDialog("Qual seu nome?");
+		
 		p2.nome = "Pedro";
 
 		b1.recebeu(100);
