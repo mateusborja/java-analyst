@@ -5,7 +5,7 @@ package com.mateusborja.javadevanalyst.lesson_4_2;
 import javax.swing.JOptionPane;
 
 public class AplicacaoBicicleta {
-	
+
 	public static void main(String[] args) {
 
 		Pessoa p1 = new Pessoa();
@@ -23,8 +23,7 @@ public class AplicacaoBicicleta {
 		b1.deu(70, b2);
 
 		System.out.println(p1.nome + " você tem = " + b1.bikes + " bicicletas. ");
-		
-	}
-	
-}
 
+	}
+
+}

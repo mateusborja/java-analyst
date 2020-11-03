@@ -2,7 +2,7 @@
 package com.mateusborja.javadevanalyst.lesson_4_2;
 
 public class AplicacaoPessoa {
-	
+
 	public static void main(String[] args) {
 
 		// pessoa1
@@ -39,5 +39,4 @@ public class AplicacaoPessoa {
 		System.out.println(m2.name + " => " + m2.numFigurinhas + " figurinhas ");
 
 	}
-
 }
