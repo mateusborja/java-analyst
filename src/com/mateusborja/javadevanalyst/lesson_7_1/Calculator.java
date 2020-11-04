@@ -7,5 +7,9 @@ public interface Calculator {
 	default double calculatePow(double x, double y) {
 		return Math.pow(x, y);
 	}
+	
+	static double calculateSqrt(double x) {
+		return Math.sqrt(x);
+	}
 
 }
