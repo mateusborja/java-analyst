@@ -13,11 +13,9 @@ public class MyCalculator implements Calculator {
 		MyCalculator my = new MyCalculator();
 		double pow = my.calculatePow(2.0, 4.0);
 		System.out.println(pow);
-		
+
 		Calculator.calculateSqrt(100);
 		System.out.println(Calculator.calculateSqrt(100));
-		
-
 
 	}
 
