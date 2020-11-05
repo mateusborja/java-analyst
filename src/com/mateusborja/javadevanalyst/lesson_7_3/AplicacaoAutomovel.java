@@ -16,7 +16,7 @@ public class AplicacaoAutomovel {
 
 		v.mostrarPreco(f);
 		v.mostrarPreco(a);
-		
+
 		Bicicleta b = new Bicicleta();
 		v.mostraPreco(b);
 

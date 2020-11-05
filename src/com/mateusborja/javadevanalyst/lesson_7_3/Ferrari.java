@@ -37,9 +37,4 @@ public class Ferrari implements Carro, ItemCaro {
 		return 100000;
 	}
 
-
-
-
-
-
 }
