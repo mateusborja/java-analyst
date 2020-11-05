@@ -1,6 +1,6 @@
 package com.mateusborja.javadevanalyst.lesson_7_3;
 
-public class Aplicacao {
+public class AplicacaoAutomovel {
 
 	public static void main(String[] args) {
 		Ferrari f = new Ferrari();
