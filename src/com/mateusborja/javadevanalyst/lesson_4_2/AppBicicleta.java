@@ -1,13 +1,10 @@
-//main method
-
 package com.mateusborja.javadevanalyst.lesson_4_2;
 
 import javax.swing.JOptionPane;
 
-public class AplicacaoBicicleta {
+public class AppBicicleta {
 
 	public static void main(String[] args) {
-
 		Pessoa p1 = new Pessoa();
 		Pessoa p2 = new Pessoa();
 
@@ -15,7 +12,7 @@ public class AplicacaoBicicleta {
 		Bicicleta b2 = new Bicicleta();
 
 		p1.nome = JOptionPane.showInputDialog("Qual seu nome?");
-		
+
 		p2.nome = "Pedro";
 
 		b1.recebeu(100);
