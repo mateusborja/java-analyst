@@ -21,7 +21,9 @@ public class AppBicicleta {
 		b1.deu(70, b2);
 
 		System.out.println(p1.nome + " você tem = " + b1.bikes + " bicicletas. ");
-
+		
+		System.exit(0);
 	}
-
+	
 }
+

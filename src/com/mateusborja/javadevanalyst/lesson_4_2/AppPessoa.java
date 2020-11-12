@@ -35,6 +35,8 @@ public class AppPessoa {
 		System.out.println(p2.nome + " => " + p2.numFigurinhas + " figurinhas ");
 		System.out.println(m1.name + " => " + m1.numFigurinhas + " figurinhas ");
 		System.out.println(m2.name + " => " + m2.numFigurinhas + " figurinhas ");
+		
+		System.exit(0);
 
 	}
 
