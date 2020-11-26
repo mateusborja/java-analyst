@@ -17,6 +17,8 @@ public interface Automovel {
 		frear();
 	}
 	
-	
+	static int velocidadeMaxima() {
+		return 300;
+	}
 
 }
