@@ -3,7 +3,7 @@
  * @author Mateus Borja // UX Designer • 3D Artist • Developer
  * at www.mateusborja.life
  */
-
+//aula 7.4 interfaces - mod de acesso default e static - classe def
 package com.mateusborja.javadevanalyst.lesson_7_4;
 
 public class Porsche implements Automovel {
