@@ -7,16 +7,16 @@ public class AplicacaoOperacao {
 
 		Operacao o = new Operacao();
 		Valor valor = new Valor();
-		
+
 		int x = 10;
 		o.trocar(x);
-		//System.out.println(x);
+		// System.out.println(x);
 
 		valor.v = 1120;
-		
+
 		valor.v = 10.000000;
 
-		//o.alterarValor(valor);
+		// o.alterarValor(valor);
 		System.out.println(valor.v);
 
 	}
